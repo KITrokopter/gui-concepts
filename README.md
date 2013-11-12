@@ -11,8 +11,12 @@ The Blink button makes the LED on the quadrokopter blink 3 times. This way the u
 
 #Global status messages:
 
+* Launching
+* Launching into ... .
 * Flying
 * Transforming formation from ... to ... .
+
+Where ... are formation names.
 
 #Actions:
 
