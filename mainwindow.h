@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "selectquadrocoptersdialog.h"
 
 namespace Ui {
 class MainWindow;
@@ -17,6 +18,10 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    SelectQuadrocoptersDialog *select = 0;
+
+private slots:
+    void handleSearchButton();
 };
 
 #endif // MAINWINDOW_H
