@@ -36,9 +36,9 @@
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_3">
             <item>
-             <widget class="QLabel" name="label_2">
+             <widget class="QLabel" name="label_3">
               <property name="text">
-               <string>Amount of Quadrokopters:</string>
+               <string>Launch height (cm)</string>
               </property>
              </widget>
             </item>
@@ -96,6 +96,13 @@
           <widget class="QPushButton" name="pushButton_2">
            <property name="text">
             <string>Delete Formation</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="text">
+            <string>Enter edit mode</string>
            </property>
           </widget>
          </item>
@@ -285,7 +292,7 @@
        <item>
         <widget class="QLabel" name="label">
          <property name="text">
-          <string>Transforming formation from Circle to Triangle.</string>
+          <string>Not enought quadrocopters selected for launch</string>
          </property>
         </widget>
        </item>
@@ -300,7 +307,7 @@
      <x>0</x>
      <y>0</y>
      <width>1503</width>
-     <height>20</height>
+     <height>29</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">

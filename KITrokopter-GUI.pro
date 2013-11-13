@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    selectquadrocoptersdialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    selectquadrocoptersdialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    selectquadrocoptersdialog.ui
