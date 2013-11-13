@@ -44,7 +44,7 @@ Right-Clicking on a quadrokopter deletes that quadrokopter.
 
 ##Searching for Quadrokopters:
 
-Clicking the "Search for Quadrokopters" button makes the application search for additional quadrokopters. The connection to existing quadrokopters is not influenced.
+Clicking the "Search for Quadrokopters" button makes the application search for additional quadrokopters. The connection to existing quadrokopters is not influenced. *Need a way to clearly separate between different quadrocopters*.
 
 ##Disconnecting from all Quadrokopters:
 
