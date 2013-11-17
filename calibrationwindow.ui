@@ -23,8 +23,11 @@
          <property name="currentIndex">
           <number>0</number>
          </property>
-         <property name="elideMode">
-          <enum>Qt::ElideNone</enum>
+         <property name="usesScrollButtons">
+          <bool>true</bool>
+         </property>
+         <property name="tabsClosable">
+          <bool>false</bool>
          </property>
          <widget class="QWidget" name="tab">
           <property name="accessibleName">
@@ -39,9 +42,14 @@
            </item>
           </layout>
          </widget>
-         <widget class="QWidget" name="tab_2">
+         <widget class="QWidget" name="tab_3">
           <attribute name="title">
            <string>Camera 2</string>
+          </attribute>
+         </widget>
+         <widget class="QWidget" name="tab_2">
+          <attribute name="title">
+           <string>Camera 3</string>
           </attribute>
          </widget>
         </widget>
@@ -55,7 +63,7 @@
           <item>
            <widget class="QPushButton" name="pushButton">
             <property name="text">
-             <string>Calibrate</string>
+             <string>Calibrate camera</string>
             </property>
            </widget>
           </item>
