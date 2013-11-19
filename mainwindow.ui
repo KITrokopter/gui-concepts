@@ -236,13 +236,6 @@
          </item>
         </layout>
        </item>
-       <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Click to enable manual control.</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </widget>
     </item>
