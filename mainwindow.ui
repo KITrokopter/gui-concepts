@@ -85,6 +85,13 @@
            </property>
            <layout class="QVBoxLayout" name="verticalLayout_4">
             <item>
+             <widget class="QPushButton" name="pushButton">
+              <property name="text">
+               <string>Load...</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QLabel" name="label_7">
               <property name="text">
                <string>Distance</string>
