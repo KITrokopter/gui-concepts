@@ -15,12 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     selectquadrocoptersdialog.cpp \
-    calibrationwindow.cpp
+    calibrationwindow.cpp \
+    aboutdialog.cpp
 
 HEADERS  += mainwindow.h \
     selectquadrocoptersdialog.h \
-    calibrationwindow.h
+    calibrationwindow.h \
+    aboutdialog.h
 
 FORMS    += mainwindow.ui \
     selectquadrocoptersdialog.ui \
-    calibrationwindow.ui
+    calibrationwindow.ui \
+    aboutdialog.ui

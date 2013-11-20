@@ -9,7 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    connect(ui->searchButton, SIGNAL(released()), SLOT(handleSearchButton()));
+    connect(ui->Q1Button, SIGNAL(released()), SLOT(handleSearchButton()));
+    connect(ui->aboutButton, SIGNAL(triggered()), SLOT(handleAboutButton()));
 }
 
 void MainWindow::handleSearchButton() {
@@ -20,6 +21,16 @@ void MainWindow::handleSearchButton() {
     select->show();
     select->raise();
     select->activateWindow();
+}
+
+void MainWindow::handleAboutButton() {
+    if (!about) {
+        about = new AboutDialog(this);
+    }
+
+    about->show();
+    about->raise();
+    about->activateWindow();
 }
 
 MainWindow::~MainWindow()

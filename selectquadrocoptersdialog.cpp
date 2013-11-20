@@ -13,21 +13,6 @@ SelectQuadrocoptersDialog::SelectQuadrocoptersDialog(QWidget *parent) :
     ui(new Ui::SelectQuadrocoptersDialog)
 {
     ui->setupUi(this);
-
-    QStringList *list = new QStringList();
-
-    for (int i = 1; i <= 100; i++) {
-        std::stringstream ss;
-        ss << i;
-
-        std::string str = std::string("Quadrocopter ") + ss.str();
-
-        list->append(*(new QString(str.c_str())));
-    }
-
-    QStringListModel *model = new QStringListModel(*list, NULL);
-
-    ui->listView->setModel(model);
 }
 
 SelectQuadrocoptersDialog::~SelectQuadrocoptersDialog()

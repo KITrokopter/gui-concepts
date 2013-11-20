@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "selectquadrocoptersdialog.h"
+#include "aboutdialog.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,9 +20,11 @@ public:
 private:
     Ui::MainWindow *ui;
     SelectQuadrocoptersDialog *select = 0;
+    AboutDialog *about = 0;
 
 private slots:
     void handleSearchButton();
+    void handleAboutButton();
 };
 
 #endif // MAINWINDOW_H
