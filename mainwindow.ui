@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>716</width>
-    <height>594</height>
+    <width>1038</width>
+    <height>570</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -140,21 +140,21 @@
               </property>
              </widget>
             </item>
+            <item>
+             <spacer name="verticalSpacer">
+              <property name="orientation">
+               <enum>Qt::Vertical</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>20</width>
+                <height>40</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
            </layout>
           </widget>
-         </item>
-         <item>
-          <spacer name="verticalSpacer">
-           <property name="orientation">
-            <enum>Qt::Vertical</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>20</width>
-             <height>40</height>
-            </size>
-           </property>
-          </spacer>
          </item>
         </layout>
        </widget>
@@ -186,10 +186,10 @@
     <item>
      <widget class="QGroupBox" name="groupBox">
       <property name="title">
-       <string>Status</string>
+       <string>Connections</string>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_5">
-       <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0" colspan="2">
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
           <widget class="QLabel" name="label">
@@ -261,7 +261,7 @@
          </item>
         </layout>
        </item>
-       <item>
+       <item row="1" column="0" colspan="2">
         <layout class="QHBoxLayout" name="horizontalLayout_4">
          <item>
           <widget class="QLabel" name="label_2">
@@ -317,6 +317,26 @@
          </item>
         </layout>
        </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="Line" name="line_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="maximumSize">
+          <size>
+           <width>175</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Scan for quadcopters</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
     </item>
@@ -327,7 +347,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>716</width>
+     <width>1038</width>
      <height>20</height>
     </rect>
    </property>
