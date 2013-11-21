@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>140</width>
-    <height>135</height>
+    <width>138</width>
+    <height>160</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,6 +39,13 @@
     <widget class="QCheckBox" name="checkBox">
      <property name="text">
       <string>Select for flight</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Blink</string>
      </property>
     </widget>
    </item>
