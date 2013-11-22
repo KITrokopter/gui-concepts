@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>976</width>
-    <height>579</height>
+    <height>586</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -143,6 +143,13 @@
              <widget class="QPushButton" name="pushButton_5">
               <property name="text">
                <string>Calibrate Cameras...</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_9">
+              <property name="text">
+               <string>Delete calibration</string>
               </property>
              </widget>
             </item>
@@ -375,7 +382,6 @@
    <addaction name="menuFile"/>
    <addaction name="menuHelp"/>
   </widget>
-  <widget class="QStatusBar" name="statusBar"/>
   <action name="actionExit">
    <property name="text">
     <string>Exit</string>
